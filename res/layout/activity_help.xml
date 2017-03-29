@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@+id/app_bar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201">
+        <android.support.design.widget.CollapsingToolbarLayout app:id="@+id/toolbar_layout" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textSize="20sp" app:typeface="sans" app:textStyle="UNKNOWN_DATA_0x0" app:textColor="#000" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/title_help_bar" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_help" />
+    <android.support.design.widget.FloatingActionButton app:id="@+id/fab" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/fab_margin" app:src="0x1080029" app:layout_anchor="@+id/app_bar" app:layout_anchorGravity="800055" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/text_margin">
+        <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/play_image" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x2801" />
+        <TextView app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/textView10" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:layout_marginBottom="20dp" app:text="Play me to see how connect as Admin..." />
+        <TextView app:typeface="sans" app:textStyle="UNKNOWN_DATA_0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/help_text_admin" />
+        <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/fb_img" app:clickable="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401" />
+        <TextView app:typeface="sans" app:textStyle="UNKNOWN_DATA_0x0" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="
+
+
+" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

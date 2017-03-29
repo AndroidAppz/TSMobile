@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_more" app:id="@+id/action_others" app:title="Others" app:showAsAction="always">
+        <menu>
+            <item app:icon="@drawable/c_p_message_small" app:id="@+id/action_poke_client" app:title="Poke" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/ic_menu_send" app:id="@+id/action_chat_client" app:title="Private Message" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/c_out_small" app:id="@+id/action_kick_client" app:title="Kick Channel" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/c_move_small" app:id="@+id/action_move_client" app:title="Move Channel" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/c_out_s_small" app:id="@+id/action_kick_client_server" app:title="Kick Server" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/c_block_white" app:id="@+id/action_ban_client" app:title="Ban Client" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/c_skarga" app:id="@+id/action_complain_client" app:title="Make Complaint" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/c_info" app:id="@+id/action_client_info" app:title="Client Info" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/ch_join" app:id="@+id/action_join_channel" app:title="Switch Channel" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/ch_new" app:id="@+id/action_new_channel" app:title="Create Channel" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/ch_sub" app:id="@+id/action_sub_channel" app:title="Create Sub-Channel" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/ch_move" app:id="@+id/action_move_channel" app:title="Move Channel" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/ch_edit" app:id="@+id/action_edit_channel" app:title="Edit Channel" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/ch_dele" app:id="@+id/action_del_channel" app:title="Delete Channel" app:showAsAction="always|withText" />
+        </menu> />
+</menu>

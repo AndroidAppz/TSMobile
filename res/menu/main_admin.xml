@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/a_menu_main" app:id="@+id/action_main" app:title="Clients list" app:showAsAction="always" />
+    <item app:icon="@drawable/a_menu_clients" app:id="@+id/action_clients" app:title="Clients list" app:showAsAction="always" />
+    <item app:icon="@drawable/a_menu_channels" app:id="@+id/action_channels" app:title="Channels list" app:showAsAction="always" />
+</menu>

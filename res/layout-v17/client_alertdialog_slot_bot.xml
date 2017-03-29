@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/listbackgroundshadow_admin" android:paddingLeft="2dp" android:paddingRight="5dp" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/txtMove1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:text="Get one Free Slot for your custom bot!!  
+
+ You can activate it by selecting one of the images below." android:layout_weight="0.1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_below="@+id/scrollView4" android:layout_alignParentLeft="true" android:layout_alignParentRight="false" android:layout_alignParentStart="true">
+        <ImageView android:id="@+id/imageAd1a" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="10dp" android:src="@drawable/free_slot" />
+        <ImageView android:id="@+id/imageAd2a" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="10dp" android:src="@drawable/free_slot" />
+    </LinearLayout>
+</RelativeLayout>

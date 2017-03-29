@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:id="@+id/singleMessageContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <ImageView android:id="@+id/avatar_chat_left" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/client_icon" android:contentDescription="chat left" />
+        <TextView android:textSize="15sp" android:typeface="sans" android:textStyle="UNKNOWN_DATA_0x0" android:textColor="#fff" android:textColorLink="#000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:autoLink="web|all" android:id="@+id/singleMessage" android:background="@drawable/chmurkaright" android:paddingLeft="5dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/ex_chat_bubble" android:textIsSelectable="true" android:alpha="0.8" />
+        <ImageView android:id="@+id/avatar_chat_right" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/me_chat" android:contentDescription="chat right" />
+    </LinearLayout>
+</LinearLayout>

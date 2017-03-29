@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="#2c323f" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    <RelativeLayout app:id="@+id/relativeLayoutLogs" app:background="#ffffff" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textStyle="bold" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/textView22" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:layout_marginTop="16dp" app:layout_marginRight="16dp" app:layout_marginBottom="16dp" app:text="History of active BOTs and errors in actions" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_alignParentStart="true" app:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ScrollView app:id="@+id/scrollView5" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="16dp" app:layout_marginTop="16dp" app:layout_marginRight="16dp" app:layout_marginBottom="16dp" app:layout_below="@+id/relativeLayoutLogs" app:layout_alignParentLeft="true" app:layout_alignParentStart="true">
+        <TextView app:typeface="sans" app:textStyle="bold" app:textColor="#dad6ee" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/txtInfoLogs" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="There is no available data...
+Select recording for active bot or do something with error." app:shadowColor="@color/text_shadow" app:shadowDx="2.0" app:shadowDy="2.0" app:shadowRadius="4.0" />
+    </ScrollView>
+</RelativeLayout>

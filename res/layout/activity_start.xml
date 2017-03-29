@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/li1" app:background="#0a2240" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatImageView app:layout_width="match_parent" app:layout_height="match_parent" />
+    <include app:id="@+id/start_welcome" app:visibility="visible" layout="@layout/content_start_menu" />
+    <include app:id="@+id/start_client" app:visibility="gone" layout="@layout/content_start_client" />
+    <include app:id="@+id/start_admin" app:visibility="gone" layout="@layout/content_start_admin" />
+</android.support.design.widget.CoordinatorLayout>

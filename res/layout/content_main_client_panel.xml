@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:background="#ffffff" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="vertical" ads:id="@+id/centrum" ads:paddingBottom="10dp" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_centerHorizontal="true">
+        <RelativeLayout ads:orientation="horizontal" ads:layout_width="match_parent" ads:layout_height="wrap_content">
+            <ImageView ads:id="@+id/ja" ads:layout_width="UNKNOWN_DATA_0x9601" ads:layout_height="UNKNOWN_DATA_0x9601" ads:layout_alignParentTop="false" ads:layout_centerHorizontal="true" ads:contentDescription="me" />
+            <LinearLayout ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="vertical" ads:layout_width="UNKNOWN_DATA_0x6401" ads:layout_height="wrap_content" ads:layout_toLeftOf="@+id/ja" ads:layout_alignParentLeft="true" ads:layout_centerVertical="true">
+                <ImageView ads:id="@+id/editImageButton" ads:layout_width="UNKNOWN_DATA_0x2601" ads:layout_height="UNKNOWN_DATA_0x2301" ads:layout_marginBottom="8dp" ads:contentDescription="edit" />
+                <ImageView ads:id="@+id/chatImageButton" ads:layout_width="UNKNOWN_DATA_0x2801" ads:layout_height="UNKNOWN_DATA_0x2601" ads:layout_marginBottom="5dp" ads:contentDescription="chat" />
+            </LinearLayout>
+            <LinearLayout ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="vertical" ads:layout_width="UNKNOWN_DATA_0x6401" ads:layout_height="wrap_content" ads:layout_toRightOf="@+id/ja" ads:layout_alignRight="@+id/ja" ads:layout_alignParentRight="true" ads:layout_alignParentBottom="false" ads:layout_centerVertical="true">
+                <ImageView ads:id="@+id/buttonAds" ads:visibility="invisible" ads:layout_width="UNKNOWN_DATA_0x3201" ads:layout_height="UNKNOWN_DATA_0x3201" ads:layout_marginBottom="10dp" ads:contentDescription="ads" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout ads:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="horizontal" ads:layout_width="match_parent" ads:layout_height="match_parent">
+            <ImageView ads:id="@+id/imageViewCommander" ads:visibility="gone" ads:layout_width="UNKNOWN_DATA_0x1401" ads:layout_height="match_parent" ads:src="0x1080048" ads:contentDescription="commander" />
+            <TextView ads:textSize="25sp" ads:typeface="sans" ads:textStyle="bold" ads:textColor="#dad6ee" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/txtNickname" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:text="@string/main_nickname" ads:singleLine="true" ads:maxLength="29" ads:shadowColor="@color/text_shadow" ads:shadowDx="2.0" ads:shadowDy="2.0" ads:shadowRadius="4.0" />
+        </LinearLayout>
+        <TextView ads:textSize="15sp" ads:typeface="sans" ads:textStyle="UNKNOWN_DATA_0x0" ads:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/title_channel" ads:paddingBottom="15dp" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:text="@string/main_channel" />
+        <LinearLayout ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="horizontal" ads:id="@+id/lis1" ads:layout_width="wrap_content" ads:layout_height="wrap_content">
+            <ImageView ads:id="@+id/jaMikro" ads:layout_width="UNKNOWN_DATA_0x6401" ads:layout_height="UNKNOWN_DATA_0x3201" ads:layout_weight="1.0" ads:contentDescription="micro" />
+            <ImageView ads:id="@+id/jaSpeaker" ads:layout_width="UNKNOWN_DATA_0x6401" ads:layout_height="UNKNOWN_DATA_0x3201" ads:layout_weight="1.0" ads:contentDescription="speaker" />
+            <ImageView ads:id="@+id/jaAway" ads:layout_width="UNKNOWN_DATA_0x6401" ads:layout_height="UNKNOWN_DATA_0x3201" ads:layout_weight="1.0" ads:contentDescription="away" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="vertical" ads:id="@+id/bottom" ads:background="#0a2240" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_below="@+id/centrum" ads:layout_alignParentBottom="true">
+        <ListView ads:id="@+id/listView" ads:background="0x106000d" ads:paddingLeft="16dp" ads:paddingTop="10dp" ads:paddingRight="16dp" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:divider="#fff" ads:dividerHeight="0dp" ads:layout_above="@+id/adviewLayout" ads:layout_alignParentLeft="true" />
+        <ImageView ads:id="@+id/chat_image" ads:focusableInTouchMode="false" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:scaleType="centerCrop" ads:adjustViewBounds="false" ads:contentDescription="chat" ads:alpha="0.2" />
+        <TextView ads:textSize="20sp" ads:typeface="sans" ads:textStyle="bold" ads:textColor="#dad6ee" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/empty_text" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:text="@string/main_channel_empty" ads:shadowColor="@color/text_shadow" ads:shadowDx="2.0" ads:shadowDy="2.0" ads:shadowRadius="4.0" ads:layout_centerHorizontal="true" ads:layout_centerVertical="true" />
+        <LinearLayout ads:orientation="horizontal" ads:id="@+id/adviewLayout" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_alignParentBottom="true" ads:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

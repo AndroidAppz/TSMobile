@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bot_action">
+        <item>Join</item>
+        <item>Move</item>
+        <item>Left</item>
+    </array>
+    <array name="bot_place">
+        <item>Server</item>
+        <item>Channel</item>
+    </array>
+    <array name="bot_reaction">
+        <item>Send</item>
+    </array>
+    <array name="bot_send">
+        <item>Poke</item>
+        <item>Message</item>
+    </array>
+    <array name="bot_send_to">
+        <item>Me</item>
+        <item>Client</item>
+        <item>Channel</item>
+        <item>Server</item>
+    </array>
+    <array name="bot_send_to2">
+        <item>Me</item>
+        <item>Client</item>
+    </array>
+    <array name="bot_who">
+        <item>Client</item>
+        <item>Me</item>
+        <item>Anyone</item>
+    </array>
+    <array name="channel_add_user">
+        <item>None</item>
+        <item>Voice</item>
+        <item>Operator</item>
+        <item>Channel Admin</item>
+    </array>
+    <array name="channel_type">
+        <item>Temporary</item>
+        <item>Semi-Permanent</item>
+        <item>Permanent</item>
+    </array>
+    <array name="create_channel_audio">
+        <item>Speex Narrowband</item>
+        <item>Speex Wideband</item>
+        <item>Speex Ultra-Wideband</item>
+        <item>CELT Mono</item>
+        <item>Opus Voice</item>
+        <item>Opus Music</item>
+    </array>
+    <array name="server_add_user">
+        <item>None</item>
+        <item>Voice</item>
+        <item>Operator</item>
+        <item>Channel Admin</item>
+        <item>Normal</item>
+        <item>Server Admin</item>
+    </array>
+    <array name="server_administrate_clients">
+        <item>Nobody</item>
+        <item>Guest</item>
+        <item>Normal</item>
+        <item>Server Admin</item>
+    </array>
+    <array name="server_basic">
+        <item>All</item>
+        <item>Channel/Private</item>
+        <item>None</item>
+    </array>
+    <array name="server_manage_server">
+        <item>Permanent</item>
+        <item>Semi-Permanent</item>
+        <item>Temporary</item>
+        <item>None</item>
+    </array>
+    <array name="server_show_name">
+        <item>Do not show</item>
+        <item>Show before name</item>
+        <item>Show behind name</item>
+    </array>
+    <array name="time_ban_client">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Permanent</item>
+    </array>
+</resources>

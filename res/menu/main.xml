@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_more" app:id="@+id/action_others" app:title="Others" app:showAsAction="always">
+        <menu>
+            <item app:icon="@drawable/give_review" app:id="@+id/action_googleplay" app:title="@string/action_settings" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/fb_icon2" app:id="@+id/action_facebook" app:title="@string/action_facebook" app:showAsAction="always|withText" />
+            <item app:icon="@drawable/don_project_black" app:id="@+id/action_donation" app:title="@string/action_donation" app:showAsAction="always|withText" />
+        </menu> />
+</menu>

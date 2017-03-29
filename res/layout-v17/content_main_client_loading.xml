@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="#0a2240" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ImageView app:id="@+id/welcome_image" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:adjustViewBounds="false" app:contentDescription="welcome" app:alpha="0.1" />
+    <ProgressBar app:id="@+id/progressBar2" app:layout_width="wrap_content" app:layout_height="wrap_content" app:indeterminate="true" app:layout_centerHorizontal="true" app:layout_centerVertical="true" style="?unknown_attr_ref: 101007a" />
+    <Button app:textSize="15sp" app:typeface="sans" app:textStyle="UNKNOWN_DATA_0x0" app:id="@+id/againB" app:background="#01f5be" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/but_again_main" app:layout_below="@+id/progressBar2" app:layout_centerHorizontal="true" app:alpha="0.8" />
+    <TextView app:typeface="sans" app:textStyle="UNKNOWN_DATA_0x0" app:textColor="#c7c4d9" app:id="@+id/txtAgain" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/main_ts_info_text" app:shadowColor="@color/text_shadow" app:shadowDx="2.0" app:shadowDy="2.0" app:shadowRadius="4.0" app:layout_above="@+id/progressBar2" app:layout_centerHorizontal="true" app:textAlignment="center" />
+</RelativeLayout>

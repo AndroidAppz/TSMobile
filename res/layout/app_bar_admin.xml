@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:elevation="0dp">
+        <android.support.v7.widget.Toolbar app:id="@+id/toolbar_admin" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="match_parent" />
+    </android.support.design.widget.AppBarLayout>
+    <include app:id="@+id/admin_lay1" app:visibility="visible" layout="@layout/content_admin_virtual_list" />
+    <include app:id="@+id/admin_lay2" app:visibility="gone" layout="@layout/content_admin_main" />
+    <include app:id="@+id/admin_lay_clients" app:visibility="gone" layout="@layout/content_admin_clients" />
+    <include app:id="@+id/admin_lay_channels" app:visibility="gone" layout="@layout/content_admin_channels" />
+</android.support.design.widget.CoordinatorLayout>

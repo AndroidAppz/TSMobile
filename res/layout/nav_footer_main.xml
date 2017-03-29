@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="wrap_content">
+    <View ads:id="@+id/view2footer" ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0x2801" ads:layout_alignParentLeft="true" />
+</RelativeLayout>

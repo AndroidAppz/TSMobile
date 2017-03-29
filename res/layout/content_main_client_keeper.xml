@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <include app:id="@+id/id1" app:visibility="gone" layout="@layout/content_main_client_panel" />
+    <include app:id="@+id/id2" app:visibility="visible" layout="@layout/content_main_client_loading" />
+    <include app:id="@+id/id3" app:visibility="gone" layout="@layout/activity_chat_bubble" />
+    <include app:id="@+id/id4_complain_list" app:visibility="gone" layout="@layout/content_main_client_complain" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="list_channel_menu">res/menu/list_channel_menu.xml</menu>
+    <menu name="main">res/menu/main.xml</menu>
+    <menu name="main_admin">res/menu/main_admin.xml</menu>
+    <menu name="menu_permision_list">res/menu/menu_permision_list.xml</menu>
+</resources>

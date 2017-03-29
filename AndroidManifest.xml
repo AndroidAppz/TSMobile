@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.depakto.tsmobilf" platformBuildVersionCode="25" platformBuildVersionName="7.1.1" android:versionCode="23" android:versionName="1.23">
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="25" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.screen.portrait" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/my_represent_big" android:allowBackup="true" android:hardwareAccelerated="true" android:supportsRtl="true">
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_start" android:name="com.depakto.tsmobile.StartActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/app_name" android:name="com.depakto.tsmobile.ClientActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_help" android:name="com.depakto.tsmobile.HelpActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_help" android:name="com.depakto.tsmobile.HelpAdminActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_chat_bubble" android:name="com.depakto.tsmobile.ChatActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_admin" android:name="com.depakto.tsmobile.AdminActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_server_info" android:name="com.depakto.tsmobile.ServerInfoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_server_groups" android:name="com.depakto.tsmobile.ServerGroupsActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_server_client" android:name="com.depakto.tsmobile.ServerClientActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_bot_client" android:name="com.depakto.tsmobile.BotClientActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_bot_logs" android:name="com.depakto.tsmobile.BotLogsActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.depakto.tsmobile.AdMobActivity" android:launchMode="singleInstance" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_permision_list" android:name="com.depakto.tsmobile.PermisionListActivity" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/Theme_IAPTheme" android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+    </application>
+</manifest>
